@@ -5,7 +5,7 @@ const mongoDB = require("./db");
 mongoDB();
 
 app.use((req, res, next) => {
-    res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000"); // Correct "Access-Control-Allow-Orgin" to "Access-Control-Allow-Origin"
+    res.setHeader("Access-Control-Allow-Origin", "https://southsizzle.onrender.com/"); // Correct "Access-Control-Allow-Orgin" to "Access-Control-Allow-Origin"
     res.header(
         "Access-Control-Allow-Headers",
         "Origin, X-Requested-With, Content-Type, Accept" // Correct the typo in this line too
